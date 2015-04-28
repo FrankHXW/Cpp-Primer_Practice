@@ -66,29 +66,29 @@ ostream &print(ostream os, const Person &item)
 	return os;
 }
 
-int main(int argc, char *argv[])
-{
-	Sales_data total;
-	if (read(cin,total)){
-		Sales_data trans;
-		while (read(cin,trans))
-		{
-			if (total.isbn()== trans.isbn()){
-				total.combine(trans);
-			}
-			else{
-				print(cout,total);
-				total = trans;
-			}
-		}
-	}
-	else
-	{
-		cerr << " no data !" << endl;
-		return 0;
-	}
-	return -1;
-}
+//int main(int argc, char *argv[])
+//{
+//	Sales_data total;
+//	if (read(cin,total)){
+//		Sales_data trans;
+//		while (read(cin,trans))
+//		{
+//			if (total.isbn()== trans.isbn()){
+//				total.combine(trans);
+//			}
+//			else{
+//				print(cout,total);
+//				total = trans;
+//			}
+//		}
+//	}
+//	else
+//	{
+//		cerr << " no data !" << endl;
+//		return 0;
+//	}
+//	return -1;
+//}
 
 
 
