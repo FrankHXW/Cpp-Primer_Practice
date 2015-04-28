@@ -31,29 +31,29 @@ struct Person{
 
 };
 
-//int main(int argc, char *argv[])
-//{
-//	Sales_data total;
-//	if (cin >> total.bookNo>>total.units_sold>>total.revenue){
-//		Sales_data trans;
-//		while (cin>>trans.bookNo>>trans.units_sold>>trans.revenue)
-//		{
-//			if (total.isbn()== trans.isbn()){
-//				total.combine(trans);
-//			}
-//			else{
-//				cout << total.bookNo << "  " << total.units_sold << "  " << total.revenue << endl;
-//				total = trans;
-//			}
-//		}
-//	}
-//	else
-//	{
-//		cerr << " no data !" << endl;
-//		return 0;
-//	}
-//	return -1;
-//}
+int main(int argc, char *argv[])
+{
+	Sales_data total;
+	if (cin >> total.bookNo>>total.units_sold>>total.revenue){
+		Sales_data trans;
+		while (cin>>trans.bookNo>>trans.units_sold>>trans.revenue)
+		{
+			if (total.isbn()== trans.isbn()){
+				total.combine(trans);
+			}
+			else{
+				cout << total.bookNo << "  " << total.units_sold << "  " << total.revenue << endl;
+				total = trans;
+			}
+		}
+	}
+	else
+	{
+		cerr << " no data !" << endl;
+		return 0;
+	}
+	return -1;
+}
 
 
 
