@@ -81,7 +81,11 @@
     <ClCompile Include="main1.cpp" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClInclude Include="CP5_ex7.h" />
+=======
+    <ClInclude Include="header.h" />
+>>>>>>> 65120b9e16d40ae63156059aed2fa0b00eda3d67
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
