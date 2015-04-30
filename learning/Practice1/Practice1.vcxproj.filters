@@ -20,11 +20,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <ClInclude Include="CP5_ex7.h">
-=======
     <ClInclude Include="header.h">
->>>>>>> 65120b9e16d40ae63156059aed2fa0b00eda3d67
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP5_ex7.h">
       <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
